@@ -1,8 +1,8 @@
-## CODESS: Angular Firebase Code Sharing Platform
+# CODESS: Angular Firebase Code Sharing Platform
 ### Overview
 This project is a code sharing platform built with Angular and Firebase. It allows users to contribute and share code snippets. Users need to log in to contribute new code snippets, while anyone can view the existing snippets without logging in. Features include user authentication, code contribution, and browsing previously contributed code snippets.
 
-# Features
+## Features
 User Authentication: Sign up and login functionality for users to contribute code snippets.
 Code Contribution: Users can add new code snippets to the platform after logging in.
 Code Browsing: Non-logged-in users can browse and view existing code snippets contributed by others.
