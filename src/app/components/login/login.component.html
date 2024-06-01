@@ -3,7 +3,7 @@
     <h4>Plese Login</h4>
     <input type="email" placeholder="email here" [formControl]="email">
     <h4 class="red-text" [hidden]="email.valid || email.untouched">enter correct email</h4>
-    <input type="password" placeholder="passworld here" [formControl]="password">
+    <input type="password" placeholder="password here" [formControl]="password">
     <h4 class="red-text" [hidden]="password.valid || password.untouched">enter correct password, with greater than 6 elements</h4>
     <button class="btn-green" [disabled]="email.invalid && password.invalid" (click)="login()">Login</button>
     <button class="btn-red" (click)="reset()">reset</button>
