@@ -1,0 +1,18 @@
+@defer{
+<div>
+    <ul>
+        @if(items.length ==0){
+                                <li>no data</li>
+        }
+        @for(item of items;track item.id){
+                <li><h3><a [routerLink]="['/snippet',item.id]">{{item.title}}</a></h3></li>
+        
+        }
+        
+       
+    </ul>
+</div>
+}
+@loading(){
+    <h4>loading...</h4>
+}

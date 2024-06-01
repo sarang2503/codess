@@ -1,0 +1,19 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    color: blueviolet;
+    text-align: center;
+    list-style-type: none;
+    width: 500px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+a{
+    text-decoration: none;
+}
+
