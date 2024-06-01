@@ -9,11 +9,6 @@
     "test": "ng test",
     "serve:ssr:login": "node dist/login/server/server.mjs"
   },
-  "browserslist": [
-    "last 2 versions",
-    "not dead",
-    "> 0.5%"
-  ],
   "private": true,
   "dependencies": {
     "@angular/animations": "^17.3.0",
