@@ -1,0 +1,12 @@
+<div class="main">
+    <form class="container" [formGroup]="binForm">
+        <h4>create code here</h4>
+        <input type="title" placeholder="enter title" [formControl]="title"><br>
+        <h4 class="red-text" [hidden]="title.valid || title.untouched">enter title again</h4>
+        <textarea type="code" placeholder="enter code here" [formControl]="code"></textarea> <br>
+        <button class="btn-green" [disabled]="code.invalid && title.invalid" (click)="save()">save</button>
+        <!-- <button class="btn-red" (click)="reset()">reset</button> -->
+    
+    </form>
+    </div>
+    

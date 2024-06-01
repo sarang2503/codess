@@ -1,0 +1,24 @@
+<div>
+    <nav>
+        <h2> <a routerLink="/" >Codesss</a> </h2>
+        <ul>
+
+            @if(authService.isauthenticated()){
+                <li (click)="authService.LogOut()">Logout</li>
+                <li><a routerLink="/create" routerLinkActive="create">Create Bin</a></li>
+                <li><a routerLink="/demo" routerLinkActive="active">demo</a></li>
+
+            }
+            @else{
+                <li><a routerLink="/login" routerLinkActive="active" >Login</a></li>
+                <li><a routerLink="/signup" routerLinkActive="active">Signup</a></li>
+
+            }
+        
+            
+            <li><a routerLink="/about" routerLinkActive="active">About</a></li>
+
+        </ul>
+    </nav>
+    <hr>
+</div>
